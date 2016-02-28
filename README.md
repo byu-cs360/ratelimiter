@@ -38,8 +38,9 @@ Contents:
 
 2) ratelimiter.cc/.h - The rate limiter code.
 
-Example:
+*Example:*
 
+```
 // create Rate Limiter instance
 RateLimiter limiter;
 // set rate to 10000 Kbps or 10 Mbps
@@ -48,8 +49,9 @@ limiter.set_rate(10000);
 int rnum = limiter->recv(client, buf, length, 0);
 // send a message
 int nwritten = limiter->send(client, buf, length, 0);
+```
 
-Notes:
+*Notes:*
 
 You need to link in the real time clock using "-lrt" when you compile
 your program.
