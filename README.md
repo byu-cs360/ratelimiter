@@ -1,6 +1,6 @@
-======================================================================
-RateLimiter, by Daniel Zappala, Brigham Young University
-======================================================================
+# RateLimiter
+Daniel Zappala
+Brigham Young University
 
 This code implements a rate limiter to control the overall rate at
 which an application sends and receives data.  This allows a user to
